@@ -671,14 +671,6 @@ Tab_DeadRails:Button({
     end
 })
 
-Tab_DeadRails:Button({
-    ["Title"] = "死铁轨手动通关汉化（由沙记汉化）",
-    ["Desc"] = "由沙记汉化",
-    ["Callback"] = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/114514lzkill/Dedrail/refs/heads/main/死铁轨手动通关汉化.lua"))()
-    end
-})
-
 -------------------------------------------------------------------------
 -- Tab: 俄亥俄州 (Ohio)
 -------------------------------------------------------------------------
