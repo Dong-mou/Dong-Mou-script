@@ -18,7 +18,7 @@ local Library = loadstring(game:HttpGet(UI_Library_URL))()
 local Window = Library:CreateWindow({
     ["Folder"] = "MyTestHub",
     ["Title"] = "DM脚本",
-    ["Author"] = "wind ui",
+    ["Author"] = "由TNINEHUB工作室制作",
     ["Icon"] = "rbxassetid://7734068321",
     HideSearchBar = false,
 })
