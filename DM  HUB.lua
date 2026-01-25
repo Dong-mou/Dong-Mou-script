@@ -77,7 +77,7 @@ Tab_General:Button({
     ["Title"] = "飞行",
     ["Desc"] = "普通飞行",
     ["Callback"] = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/114514lzkill/-/refs/heads/main/%E9%A3%9E%E8%A1%8C%E8%84%9A%E6%9C%AC.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/shenmi9178/Dong-s-script/refs/heads/main/%E5%86%AC%E6%9F%90%E9%A3%9E%E8%A1%8C.lua"))()
     end
 })
 
@@ -450,7 +450,7 @@ Tab_General:Button({
 })
 
 Tab_General:Button({
-    ["Title"] = "选人甩飞(沙脚本)（需要输入别人的名字）",
+    ["Title"] = "选人甩飞（需要输入别人的名字）",
     ["Desc"] = "帅飞",
     ["Callback"] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Auto%20Fling%20Player"))()
@@ -796,7 +796,7 @@ local Tab_Robux = Window:Tab({
 })
 
 -- 注意：以下脚本实际上是同一个链接，都是 UI 模拟
-local fakeRobuxUrl = "https://raw.githubusercontent.com/114514lzkill/gg/refs/heads/main/gg.lua"
+local fakeRobuxUrl = "https://raw.githubusercontent.com/Dong-mou/Dong-Mou-script/refs/heads/main/hjaqjjwjwjww.lua"
 
 Tab_Robux:Button({ ["Title"] = "80R", ["Desc"] = "包真实", ["Callback"] = function() loadstring(game:HttpGet(fakeRobuxUrl))() end })
 Tab_Robux:Button({ ["Title"] = "160R", ["Desc"] = "包真实", ["Callback"] = function() loadstring(game:HttpGet(fakeRobuxUrl))() end })
