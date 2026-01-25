@@ -19,7 +19,7 @@ local Window = Library:CreateWindow({
     ["Folder"] = "MyTestHub",
     ["Title"] = "DM脚本",
     ["Author"] = "由TNINEHUB工作室制作",
-    ["Icon"] = "https://github.com/Dong-mou/Dong-Mou-script/blob/9df54613eb5c5bc01d340879e37e33818eedb65c/retouch_2026012515051534.jpg",
+    ["Icon"]   = "rbxassetid://7734068321",
     HideSearchBar = false,
 })
 
