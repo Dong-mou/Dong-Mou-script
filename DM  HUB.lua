@@ -224,7 +224,7 @@ Tab_General:Button({
         RunService.Heartbeat:Connect(function()
             -- 这里使用 os.date 格式化时间，修复原始逻辑的复杂时间戳计算
             local currentTime = os.date("%H时%M分%S秒")
-            TextLabel.Text = "北京时间:" .. currentTime
+            TextLabel.Text = "DM时间:" .. currentTime
         end)
     end
 })
