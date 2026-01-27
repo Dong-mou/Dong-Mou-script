@@ -3,18 +3,7 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 
 local Window = WindUI:CreateWindow({
         Title = "<font color='#FF66CC'>打开/点开DM HUB脚本</font>  ",
-        
--- ↓ This all is Optional. You can remove it.
-        
-    -- ↓ Optional. You can remove it.
-    --[[ You can set 'rbxassetid://' or video to Background.
-        'rbxassetid://':
-            Background = "rbxassetid://", -- rbxassetid
-        Video:
-            Background = "video:YOUR-RAW-LINK-TO-VIDEO.webm", -- video 
-    --]]
-    
-    -- ↓ Optional. You can remove it.
+
     Size = UDim2.fromOffset(100, 50),
         Transparent = true,
         Theme = "Dark",
@@ -55,44 +44,11 @@ WindUI:Notify({
 
 
 local Tab = Window:Tab({
-    Title = "DM HUB脚本公告",
+    Title = "DM HUB脚本公告
     Icon = "layout-grid",
     Locked = false,
 })
-
-local Paragraph = Tab:Paragraph({
-    Title = "系统信息",
-    Desc = string.format("用户名: %s\n显示名: %s\n用户ID: %d\n账号年龄: %d天", 
-        player.Name, player.DisplayName, player.UserId, player.AccountAge),
-    Image = "info",
-    ImageSize = 20,
-    Color = Color3.fromHex("#0099FF")
-})
-
-local fpsCounter = 0
-local fpsLastTime = tick()
-local fpsText = "计算中..."
-
-spawn(function()
-    while wait() do
-        fpsCounter += 1
-        
-        if tick() - fpsLastTime >= 1 then
-            fpsText = string.format("%.1f FPS", fpsCounter) -- 显示一位小数
-            fpsCounter = 0
-            fpsLastTime = tick()
-        end
-    end
-end)
-
-Taba:Paragraph({
-    Title = "性能信息",
-    Desc = "帧率: " .. fpsText,
-    Image = "bar-chart",
-    ImageSize = 20,
-    Color = Color3.fromHex("#00A2FF")
-})
-
+                
 local Paragraph = Tab:Paragraph({
     Title = "本人在此声明：封号与本脚本无关",
     Desc = "QQ群主群830718017 ",
