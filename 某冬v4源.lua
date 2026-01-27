@@ -93,7 +93,7 @@ local Tab16 = Tab("EVADE")
 local Tab17 = Tab("锻造厂")
 local Tab18 = Tab("通缉")
 local Tab19 = Tab("被遗弃")
-local Tab20 = Tab("格蕾丝")
+local Tabwq = Tab("格蕾丝")
 local Tabd = Tab("催更地点")
 local Tabb = Tab("设置")
 
@@ -2030,7 +2030,7 @@ Button(Tab19, "DM被遗弃", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shenmi9178/Dong-s-script/refs/heads/main/%E5%86%AC%E6%9F%90%E8%A2%AB%E9%81%97%E5%BC%83.lua"))()
 end)
-Button(Tab20, "不知名", function()
+Button(Tabwq, "不知名", function()
 
 loadstring(game:HttpGet("https://rawscripts.net/raw/Grace-Auto-Farm-And-More-23940"))()
 
