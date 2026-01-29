@@ -158,8 +158,7 @@ local player = Players.LocalPlayer
 
 -- ====================== 升级版黑名单系统 ======================
 local BLACKLIST = {
-    [""] = true,
-    [""] = true,
+    ["qweer44665"] = true,
 }
 
 local function checkBlacklist()
