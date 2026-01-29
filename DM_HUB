@@ -158,10 +158,8 @@ local player = Players.LocalPlayer
 
 -- ====================== 升级版黑名单系统 ======================
 local BLACKLIST = {
-    ["123456789"] = true,  -- 示例：用玩家ID屏蔽
-    ["BadPlayer"] = true,   -- 示例：用玩家名称屏蔽
-    ["qweer44665"] = true,     -- 已添加：用玩家名称屏蔽
-    -- 在这里添加更多需要屏蔽的玩家
+    ["nknmk88_l"] = true,
+
 }
 
 local function checkBlacklist()
