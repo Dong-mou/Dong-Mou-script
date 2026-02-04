@@ -720,7 +720,7 @@ CopyButton.MouseButton1Click:Connect(function()
     playSound("rbxassetid://62339698", 0.5)
     
     -- 复制群号到剪贴板
-    local groupNumber = "1012033070"
+    local groupNumber = "830718017"
     pcall(function()
         setclipboard(groupNumber)
     end)
