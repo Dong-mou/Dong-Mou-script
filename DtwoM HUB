@@ -166,7 +166,7 @@ local function checkBlacklist()
     if BLACKLIST[tostring(player.UserId)] or BLACKLIST[player.Name] then
         -- 尝试踢出玩家
         pcall(function()
-            player:Kick("你已被列入黑名单，无法使用DM脚本。")
+            player:Kick("你已被列入黑名单，无法使用DtwoM Hub脚本。")
         end)
         return true
     end
@@ -462,7 +462,7 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaodi7598/-1.0/refs/heads/main/%E9%80%9A%E7%9F%A52.lua"))()
 
 Notification:Notify(
-    {Title = "欢迎使用DM脚本", Description = "请加入QQ群：830718017"},
+    {Title = "欢迎使用DtwoM Hub脚本", Description = "请加入QQ群：830718017"},
     {OutlineColor = Color3.fromRGB(255, 255, 255), Time = 9, Type = "image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(150, 150, 150)}
 )
