@@ -30,7 +30,7 @@ local function checkWhitelist()
         if StartSound then StartSound:Destroy() end
         
         local loadSuccess, loadErr = pcall(function()
-            local scriptContent = game:HttpGet('https://raw.githubusercontent.com/Dong-mou/Dong-Mou-script/refs/heads/main/DM_HUB')
+            local scriptContent = game:HttpGet('qhttps://raw.githubusercontent.com/Dong-mou/Dong-Mou-script/refs/heads/main/DtwoM%20HUB')
             loadstring(scriptContent)()
         end)
         if not loadSuccess then
@@ -890,7 +890,7 @@ VerifyBtn.MouseButton1Click:Connect(function()
         return
     end
     
-    if key == "DM_keys_7Days" then
+    if key == "DM-KEY-Very-important" then
         -- 验证成功
         updateStatus(Color3.fromRGB(80, 255, 80), "已验证")
         showMessage("✓ 验证成功，正在启动脚本...", Color3.fromRGB(80, 255, 80))
@@ -928,7 +928,7 @@ VerifyBtn.MouseButton1Click:Connect(function()
         end
         
         pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Dong-mou/Dong-Mou-script/refs/heads/main/DM_HUB"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Dong-mou/Dong-Mou-script/refs/heads/main/DtwoM%20HUB"))()
         end)
         
         if localPlayer.Character and localPlayer.Character:FindFirstChildOfClass("Humanoid") then
