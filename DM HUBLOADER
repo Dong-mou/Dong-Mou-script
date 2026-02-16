@@ -15,7 +15,7 @@ local WHITELIST = {
     ["9181349777"] = true,
     ["826171502"] = true,
     ["7760543937"] = true,
-    ["9099458985"] = true,
+    ["nknmk88_l"] = true,
 }
 
 local function checkWhitelist()
